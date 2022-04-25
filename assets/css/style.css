@@ -19,6 +19,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.3rem;
 }
+.col-100{
+    width: 100%;
+}
 .col-50{
     width: 50%;
 }
@@ -54,4 +57,27 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+
+#about{
+    line-height: 25px;
+    margin: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#table{
+    border-collapse: collapse;
+}
+th {
+    background-color:green;
+    Color:white;
+}
+th, td {
+    width:150px;
+    text-align:center;
+    border:1px solid black;
+    padding:5px
+  
 }
