@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Yogalife</title>
+    <script src="https://kit.fontawesome.com/445881c59d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Navigation-->
     <nav id="nav">
         <div class="nav-list-wrappers">
+            <h1 id="logo">Yogalife</h1>
         <ul>
-            <li id="logo"><a href="#header">Yogalife</a></li>
+           
             <li><a href="">Contact Us </a></li>
             <li><a href="">About Us</a></li>
             <li><a href="">Sign Up</a></li>
@@ -21,21 +23,27 @@
     </nav>
     <!--Header-->
     <header id="header" class="section">
-    <div class="left-column col-100">
+        <section class="outer-image">
+    <div class="image">
         <!--image taken from les mills site-->  
-        <img src="/assets/images/bodybalance_960x480.jpg" class="image" alt="men and women doing a yoga pose in a bright class studio">
+        <img src="/assets/images/lesmills-bodybalance.jpg" class="image" alt="men and women doing a yoga pose in a bright class studio">
     </div>
-    <div class="right-column col-50 text-center mt-5">
-        <h1>Yogalife</h1>
-        <p>join our yoga club <br> for people of all ages</p>
+    <div class="image-text">
+        <h2>Yogalife</h2>
+        <h3>join our yoga club for people of all ages</h3>
     </div>
+</section>
 </header>
     <main>
         <!--about us-->
         
         <section id="about" class="section text-center">
             <h2>About Us</h2>
-            <h3>learn how to solve coding puzzles, build games and program robots!</h3>
+            <p>Yogalife has been a renowned Athlone area Yoga Studio since 2010. 
+                <br> At Yogalife we bring a unique approach to delivering our classes 
+                <br>Our yoga classes embody physical, spiritual, and emotional aspects of wellbeing. 
+                <br>Instructors will offer exercise variations that suit beginners and advanced members.
+                <br>Come on a journey with us and let us show you the way to your best self.</p>
             <div id="list" class="text-left">
                 <p>we offer</p>
                 <ul>
@@ -84,6 +92,58 @@
                 </table>
             </div>
         </section>
+        <!--about us section-->
+        <section>
+        
+                <h2>Sign up</h2>
+                <h3>10 classes for €40</h3>
+            
+                <form action="" method="post">
+                <div>
+                <label for="name-field">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Full Name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email-field">Email Address</label>
+                    <input id="email-field" type="email" placeholder="Email Address" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone">Mobile Number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Mobile Number" required>
+                        </div>
+                        <br>
+                        <input id="never" type="radio" name="attend" value="never">
+                        <label for="never">I have never attended a yoga class</label>
+                        <br>
+                        <input id="rarely" type="radio" name="attend" value="rarely">
+                        <label for="rarely">I attend classes rarely</label>
+                        <br>
+                        <input id="weekly" type="radio" name="attend" value="weekly" checked>
+                        <label for="weekly">I attend classes weekly</label>
+                        <br>
+                        <input id="daily" type="radio" name="attend" value="daily">
+                        <label for="daily">I attend  yoga classes daily</label>
+                        <br>
+                        <input type="submit">
+                    </form>
+        </section>
     </main>
+    
+
+    <footer id="footer">
+        <div>
+        <h3>Yogalife</h3>
+        <p>Yogalife,<br>Monksland, <br>Athlone, <br>Westmeath.</p>
+        </div >
+        <div class="social-media">
+        <h4>Find us on</h4>
+        <a href ="https://www.facebook.com/" rel = "noopener" target = "_blank"> <i class="fa-brands fa-facebook"></i></a>
+        <a href ="https://www.instagram.com/" rel = "noopener" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href ="https://twitter.com/?lang=en" rel = "noopener" target = "_blank"> <i class="fa-brands fa-twitter"></i></a>
+     </div>
+        <p>Copyright © Coders Coffeehouse 2020</p>
+    </footer>
 </body>
 </html>

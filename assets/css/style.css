@@ -134,3 +134,13 @@ th, td {
     padding:5px
   
 }
+
+#footer{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(135, 136, 135, 0.7);
+}
+.social-media{
+    text-align: center;
+    word-spacing: 5px;
+}
