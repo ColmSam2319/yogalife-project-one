@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Raleway:wght@300&display=swap');
+
 h2{
     font-size: 2.5rem;
 }
@@ -5,7 +7,7 @@ h3{
     font-size: 1.5rem;
 }
 h1,h2,h3,h4{
-    color: green;
+    color: black;
 }
 .text-center{
     text-align: center;
@@ -16,7 +18,7 @@ h1,h2,h3,h4{
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Raleway, Courier, sans-serif;
     font-size: 1.3rem;
 }
 .col-100{
@@ -31,9 +33,7 @@ body{
 .right-column{
     float: right;
 }
-.w100{
-    width: 100%;
-}
+
 .section{
     padding: 10px;
 }
@@ -49,24 +49,77 @@ body{
 }
 #nav li{
     float: right;
-    list-style-type: none;
     margin-right: 30px;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 #nav #logo{
     float: left;
+    margin-top: auto;
+    margin-bottom: 5px;
     font-weight: bold;
+    font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 15px;
+
 }
 
 #about{
     line-height: 25px;
-    margin: 250px;
-    padding-bottom: 20px;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
+#header{
+    height: 600px;
+    width: 100%;
+    padding: 0%;
+    
+}
+.outer-image{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.image{
+    height: 600px;
+    width: 100%;
+}
+.image-text{
+    font-size: 130%;
+    font-family: Raleway, Courier, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
 
+    width: 325px;
+    height: 300px;
+    border: 2px none;
+    border-radius: 50%;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+    background-color: rgba(135, 136, 135, 0.7);
+
+    bottom: 150px;
+    right: 100px;
+
+    position: absolute;
+    
+    
+}
 #table{
     border-collapse: collapse;
 }
