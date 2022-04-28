@@ -136,11 +136,28 @@ th, td {
 }
 
 #footer{
-    height: 250px;
+    height: 260px;
     width: 100%;
     background-color: rgba(135, 136, 135, 0.7);
 }
-.social-media{
+.address{
     text-align: center;
-    word-spacing: 5px;
+    color: white;
+
+}
+.address h4{
+    color: white;
+    padding-top: 10px;
+}
+.address p{
+    font-size: 1.0rem;
+}
+
+.social-media{
+    text-align: center;  
+}
+.social-media a{
+    padding: 5px;
+    
+    color: black;
 }
