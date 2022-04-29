@@ -142,19 +142,31 @@ th, td {
 }
 .address{
     text-align: center;
-    color: white;
+    color: black;
+    margin-left: 10px;
+    float: left;
+    width: 25%;
 
 }
 .address h4{
-    color: white;
+    color: black;
     padding-top: 10px;
 }
 .address p{
     font-size: 1.0rem;
 }
 
-.social-media{
+#feedback{
+     float: left;
+     padding-top: 10px;
+
+}
+
+.social-media{ 
+    padding-top: 10px;
+    float: right;
     text-align: center;  
+    width: 25%;
 }
 .social-media a{
     padding: 5px;
