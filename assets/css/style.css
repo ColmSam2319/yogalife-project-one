@@ -1,175 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Raleway:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
+h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: black;
+    margin-left: 20px;
+}
 h2{
-    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 190%;
 }
 h3{
-    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 100%;
 }
 h1,h2,h3,h4{
     color: black;
 }
-.text-center{
-    text-align: center;
+p {
+    letter-spacing: 1px;
+    font-size: 90%;
 }
-.text-left{
-    text-align: left;
-}
+
 body{
-    padding: 0;
-    margin: 0;
+
     font-family: Raleway, Courier, sans-serif;
     font-size: 1.3rem;
+    color: #3a3a3a;
 }
-.col-100{
+
+img {
+    border-radius: 5px;
+}
+
+header{
+    height: 70px;
     width: 100%;
+    position: fixed;
+    z-index: 20;
+    background-color: #f3f3f3;
+    
 }
-.col-50{
-    width: 50%;
-}
-.left-column{
+
+#logo{
     float: left;
-}
-.right-column{
-    float: right;
-}
+    font-size: 240%;
 
-.section{
-    padding: 10px;
 }
-.mt-5{
-    margin-top: 5px;
+#nav-list #logo{
+line-height: 80px;
 }
-#nav{
-    font-size: 1.5rem;
-    height: 40px;
-}
-.nav-list-wrapper{
-    position: relative;
-}
-#nav li{
+/*nav list header*/
+
+#nav-list{
+    font-size: 80%;
+    letter-spacing: 2px;
     float: right;
-    margin-right: 30px;
-    font-size: 1.5rem;
+}
+#nav-list li {
     list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
 }
-#nav a {
+#nav-list a{
+    
     text-decoration: none;
-    color: inherit;
+    color: #3a3a3a
 }
-
-#nav a:hover {
+nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-#nav #logo{
-    float: left;
-    margin-top: auto;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-transform: uppercase;
 
-}
-
-#about{
-    line-height: 25px;
-    text-align: center;
-    width: 100%;
-}
-#header{
-    height: 600px;
-    width: 100%;
-    padding: 0%;
-    
-}
 .outer-image{
-    height: 600px;
+    margin-top: 90px;
+    height: 720px;
     width: 100%;
-    overflow: hidden;
-    position: absolute;
 }
-.image{
+
+#main-image{
     height: 600px;
     width: 100%;
+    background: url(../images/lesmills-bodybalance.jpg) no-repeat center center;
+
 }
 .image-text{
-    font-size: 130%;
+    font-size: 130;
     font-family: Raleway, Courier, sans-serif;
-    text-transform: uppercase;
     text-align: center;
     letter-spacing: 4px;
 
+    /*css for circle*/
     width: 325px;
     height: 300px;
     border: 2px none;
     border-radius: 50%;
 
-  padding-top: 40px;
-  padding-left: 10px;
+    
+/*positioning of the image circle*/
 
     background-color: rgba(135, 136, 135, 0.7);
-
-    bottom: 150px;
-    right: 100px;
-
+    bottom: 300px;
+    right: 50px;
     position: absolute;
     
-    
 }
-#table{
-    border-collapse: collapse;
-}
-th {
-    background-color:green;
-    Color:white;
-}
-th, td {
-    width:150px;
-    text-align:center;
-    border:1px solid black;
-    padding:5px
-  
-}
-
-#footer{
-    height: 260px;
+#about-head{
+    height: 220px;
     width: 100%;
-    background-color: rgba(135, 136, 135, 0.7);
-}
-.address{
     text-align: center;
     color: black;
+    line-height: 220px;
+}
+#about-text-right{
+    text-align: right;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about-text{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
     margin-left: 10px;
-    float: left;
-    width: 25%;
-
 }
-.address h4{
-    color: black;
-    padding-top: 10px;
-}
-.address p{
-    font-size: 1.0rem;
-}
-
-#feedback{
-     float: left;
-     padding-top: 10px;
-
-}
-
-.social-media{ 
-    padding-top: 10px;
-    float: right;
-    text-align: center;  
-    width: 25%;
-}
-.social-media a{
-    padding: 5px;
+#about-image{
     
-    color: black;
+    
+    width: 30%;
+    margin-left: 10px;
+    display: inline-block;
+}
+.teacher-image{
+    height: 300px;
+    width: 100%;
+
 }
