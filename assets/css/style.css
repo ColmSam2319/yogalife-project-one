@@ -164,11 +164,13 @@ nav a:hover {
     text-align: right;
     display: inline-block;
     width: 30%;
+    
 }
 
 .teacher-image {
     height: 300px;
-    width: 100%;
+    width: 80%;
+    
 
 }
 
