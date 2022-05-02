@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 #main-image{
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/lesmills-bodybalance.jpg) no-repeat center center;
 
@@ -102,7 +102,7 @@ nav a:hover {
     letter-spacing: 4px;
 
     /*css for circle*/
-    width: 325px;
+    width: 300px;
     height: 300px;
     border: 2px none;
     border-radius: 50%;
@@ -111,40 +111,259 @@ nav a:hover {
 /*positioning of the image circle*/
 
     background-color: rgba(135, 136, 135, 0.7);
-    bottom: 300px;
-    right: 50px;
     position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 100px;
+    right: 50px;
+
+    position: absolute;
+
     
 }
-#about-head{
-    height: 220px;
-    width: 100%;
+.about-head{
     text-align: center;
-    color: black;
-    line-height: 220px;
+    margin: 20px 0;
+    font-size: 280%;
+    
 }
 #about-text-right{
-    text-align: right;
+    text-align: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 #about-text{
     display: inline-block;
-    text-align: right;
-    vertical-align: top;
+    text-align: left;
+    vertical-align:top;
     width: 30%;
-    margin-left: 10px;
+    margin-right: 10px; 
+    margin-top: 20px;
 }
 #about-image{
-    
-    
-    width: 30%;
-    margin-left: 10px;
+    text-align: right;
     display: inline-block;
+    width: 30%;
 }
 .teacher-image{
     height: 300px;
     width: 100%;
 
+}
+
+/** section for classes**/
+#classes {
+    height: 800px;
+    background-color: rgba(135, 136, 135, 0.7);
+}
+
+#left-side {
+    padding-top: 40px;
+    width: 33%;
+    float: left;
+    
+}
+
+#right-side {
+    padding-top: 40px;
+    width: 33%;
+    float: right;
+    
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-side-class {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-class {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-side-class h3{
+    text-align: right;
+}
+.right-side-class p{
+    text-align: right;
+}
+
+#class-heading{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-bg{
+    background:url('/assets/images/bodybalance_960x480.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+/**membership section**/
+
+#sign-up-header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    line-height: 150px;
+}
+
+#contact-header-text {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+#sign-up-form {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member-form {
+    border:solid 1px #3a3a3a;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.member-head {
+    text-align: center;
+    font-size: 130%;
+    color: black;
+    padding-bottom: 20px;
+}
+.member-text {
+    text-align: center;
+    margin: 5px 0 10px 0; 
+    font-size: 80%;  
+    color: black; 
+}
+
+.member-label{
+    margin: 5px;
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+    color: black;
+    
+}
+
+.member-data{
+        letter-spacing: 1px;
+        font-family: inherit; 
+        font-size: 70%;    
+        width: 100%;  
+        text-align: center; 
+        color: black;
+        border:solid 1px #3a3a3a;
+}
+
+.submit{
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    border-radius: 3px; 
+    border:solid 1px #3a3a3a;
+    text-align: center;
+}
+.reset{
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    border-radius: 3px; 
+    border:solid 1px #3a3a3a;
+    text-align: center;
+}
+/* Content section for contact-form-dump.html */
+
+#succsessful-form {
+    margin-top: 2px;
+    height: 720px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f3f3f3;
+}
+
+#successfull-form-message {
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+#successfull-form-message h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2D5A27;
+    margin-bottom: 4px;
+}
+
+#successfull-form-message p {
+    color: #2D5A27;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/**footer section taken from love running**/
+
+footer {
+    height: 200px;
+    background-color: rgba(135, 136, 135, 0.7);
+}
+#contact-details{
+    color: black;
+    text-align: center;
+    font-size: 80%;
+    height: 50px;
+}
+.contact-head{
+    text-align: center;
+    color:black;
+}
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 100%;
+    margin: 2%;
+   padding-top: 5%;
+    color: #f3f3f3
 }
