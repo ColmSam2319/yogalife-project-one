@@ -1,35 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Raleway:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-h1{
+h1 {
     font-weight: 500;
     letter-spacing: 2px;
     color: black;
     margin-left: 20px;
 }
-h2{
+
+h2 {
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 190%;
 }
-h3{
+
+h3 {
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 100%;
 }
-h1,h2,h3,h4{
+
+h1,
+h2,
+h3,
+h4 {
     color: black;
 }
+
 p {
     letter-spacing: 1px;
     font-size: 90%;
 }
 
-body{
+body {
 
     font-family: Raleway, Courier, sans-serif;
     font-size: 1.3rem;
@@ -40,41 +48,46 @@ img {
     border-radius: 5px;
 }
 
-header{
+header {
     height: 70px;
     width: 100%;
     position: fixed;
     z-index: 20;
     background-color: #f3f3f3;
-    
+
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 240%;
 
 }
-#nav-list #logo{
-line-height: 80px;
+
+#nav-list #logo {
+    line-height: 80px;
 }
+
 /*nav list header*/
 
-#nav-list{
+#nav-list {
     font-size: 80%;
     letter-spacing: 2px;
     float: right;
 }
+
 #nav-list li {
     list-style-type: none;
     float: left;
     margin-right: 20px;
     margin-top: 20px;
 }
-#nav-list a{
-    
+
+#nav-list a {
+
     text-decoration: none;
     color: #3a3a3a
 }
+
 nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -83,20 +96,21 @@ nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.outer-image{
+.outer-image {
     margin-top: 90px;
     height: 720px;
     width: 100%;
 }
 
-#main-image{
+#main-image {
     height: 800px;
     width: 100%;
     background: url(../images/lesmills-bodybalance.jpg) no-repeat center center;
 
 }
-.image-text{
-    font-size: 130;
+
+.image-text {
+    
     font-family: Raleway, Courier, sans-serif;
     text-align: center;
     letter-spacing: 4px;
@@ -107,8 +121,8 @@ nav a:hover {
     border: 2px none;
     border-radius: 50%;
 
-    
-/*positioning of the image circle*/
+
+    /*positioning of the image circle*/
 
     background-color: rgba(135, 136, 135, 0.7);
     position: absolute;
@@ -119,35 +133,40 @@ nav a:hover {
 
     position: absolute;
 
-    
+
 }
-.about-head{
+
+.about-head {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
-    
+
 }
-#about-text-right{
+
+#about-text-right {
     text-align: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
-#about-text{
+
+#about-text {
     display: inline-block;
     text-align: left;
-    vertical-align:top;
+    vertical-align: top;
     width: 30%;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-top: 20px;
 }
-#about-image{
+
+#about-image {
     text-align: right;
     display: inline-block;
     width: 30%;
 }
-.teacher-image{
+
+.teacher-image {
     height: 300px;
     width: 100%;
 
@@ -163,20 +182,21 @@ nav a:hover {
     padding-top: 40px;
     width: 33%;
     float: left;
-    
+
 }
 
 #right-side {
     padding-top: 40px;
     width: 33%;
     float: right;
-    
+
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -198,19 +218,22 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
-.right-side-class h3{
-    text-align: right;
-}
-.right-side-class p{
+
+.right-side-class h3 {
     text-align: right;
 }
 
-#class-heading{
+.right-side-class p {
+    text-align: right;
+}
+
+#class-heading {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-#circle-container{
+
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 10px;
@@ -220,11 +243,13 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
-#circle-cover-bg{
-    background:url('/assets/images/bodybalance_960x480.jpg') no-repeat center center;
+
+#circle-cover-bg {
+    background: url('/assets/images/bodybalance_960x480.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
 /**membership section**/
 
 #sign-up-header {
@@ -248,7 +273,7 @@ hr {
 }
 
 .member-form {
-    border:solid 1px #3a3a3a;
+    border: solid 1px #3a3a3a;
     padding: 10px;
     display: inline-block;
     text-align: left;
@@ -264,106 +289,109 @@ hr {
     color: black;
     padding-bottom: 20px;
 }
+
 .member-text {
     text-align: center;
-    margin: 5px 0 10px 0; 
-    font-size: 80%;  
-    color: black; 
+    margin: 5px 0 10px 0;
+    font-size: 80%;
+    color: black;
 }
 
-.member-label{
+.member-label {
     margin: 5px;
     width: 100%;
     font-size: 80%;
     text-align: center;
     color: black;
-    
+
 }
 
-.member-data{
-        letter-spacing: 1px;
-        font-family: inherit; 
-        font-size: 70%;    
-        width: 100%;  
-        text-align: center; 
-        color: black;
-        border:solid 1px #3a3a3a;
+.member-data {
+    letter-spacing: 1px;
+    font-family: inherit;
+    font-size: 70%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    border: solid 1px #3a3a3a;
 }
 
-.submit{
+.submit {
     margin: 10px;
     padding: 5px;
     color: black;
-    border-radius: 3px; 
-    border:solid 1px #3a3a3a;
+    border-radius: 3px;
+    border: solid 1px #3a3a3a;
     text-align: center;
 }
-.reset{
+
+.reset {
     margin: 10px;
     padding: 5px;
     color: black;
-    border-radius: 3px; 
-    border:solid 1px #3a3a3a;
+    border-radius: 3px;
+    border: solid 1px #3a3a3a;
     text-align: center;
 }
-/* Content section for contact-form-dump.html */
 
-#succsessful-form {
-    margin-top: 2px;
-    height: 720px;
+/* Content section for membership-success-page.html */
+
+#success-image {
+    height: 700px;
     width: 100%;
-    position: relative;
+    background: url(../images/success-image-2.jpg) no-repeat center center;
+    overflow: hidden;
+
+}
+
+.success-image-head {
+    color: white;
+}
+
+.success-image-text {
+    color: white;
+    background-color: rgba(135, 136, 135, 0.7);
     text-align: center;
-    padding-top: 20px;
-    background-color: #f3f3f3;
+    position: absolute;
+    top: 250px;
+    height: 150px;
+    padding: 0px 10px 0px 10px;
 }
 
-#successfull-form-message {
-    letter-spacing: 4px;
-    text-align: center;
-    width: 100%;
-}
-
-#successfull-form-message h2 {
-    font-size: 4vw;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #2D5A27;
-    margin-bottom: 4px;
-}
-
-#successfull-form-message p {
-    color: #2D5A27;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
 /**footer section taken from love running**/
 
 footer {
     height: 200px;
     background-color: rgba(135, 136, 135, 0.7);
 }
-#contact-details{
+
+#contact-details {
     color: black;
     text-align: center;
     font-size: 80%;
     height: 50px;
 }
-.contact-head{
+
+.contact-head {
     text-align: center;
-    color:black;
+    color: black;
 }
+
 .social-media {
     text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
 .social-media i {
     font-size: 100%;
     margin: 2%;
-   padding-top: 5%;
+    padding-top: 5%;
     color: #f3f3f3
 }
+/* media queries */
+
+/* for larger to medium screen sizes from 1200px wide and down */
+
