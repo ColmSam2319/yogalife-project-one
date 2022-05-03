@@ -174,19 +174,19 @@ nav a:hover {
 
 /** section for classes**/
 #classes {
-    height: 800px;
+    height: 650px;
     background-color: rgba(135, 136, 135, 0.7);
 }
 
 #left-side {
-    padding-top: 40px;
+    padding-top: 30px;
     width: 33%;
     float: left;
 
 }
 
 #right-side {
-    padding-top: 40px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 
@@ -198,7 +198,7 @@ nav a:hover {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid black;
     width: 100%;
     margin: 5px;
 }
@@ -232,11 +232,11 @@ hr {
     margin: 20px 0;
     font-size: 280%;
 }
-
+/**code used from love running**/
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 10px;
+    padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
@@ -395,3 +395,39 @@ footer {
 
 /* for larger to medium screen sizes from 1200px wide and down */
 
+@media screen and (max-width : 1200px){
+    
+    .image-text{
+        display: none;
+    }
+
+
+    #classes{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+#class-heading{
+    padding: 30px 0;
+    margin: 0;
+}
+#left-side #right-side {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#center-about{
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#hr{
+    display: none;
+}
+
+
+
+
+}
