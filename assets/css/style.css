@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 .image-text {
-    
+
     font-family: Raleway, Courier, sans-serif;
     text-align: center;
     letter-spacing: 4px;
@@ -162,13 +162,13 @@ nav a:hover {
     text-align: right;
     display: inline-block;
     width: 30%;
-    
+
 }
 
 .teacher-image {
     height: 300px;
     width: 80%;
-    
+
 
 }
 
@@ -232,6 +232,7 @@ hr {
     margin: 20px 0;
     font-size: 280%;
 }
+
 /**code used from love running**/
 #circle-container {
     width: 300px;
@@ -391,43 +392,111 @@ footer {
     padding-top: 5%;
     color: #f3f3f3
 }
+
 /* media queries */
 
 /* for larger to medium screen sizes from 1200px wide and down */
 
-@media screen and (max-width : 1200px){
-    
-    .image-text{
+@media screen and (max-width : 1200px) {
+
+    .image-text {
         display: none;
     }
 
 
-    #classes{
+    #classes {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-#class-heading{
-    padding: 30px 0;
-    margin: 0;
-}
-#left-side #right-side {
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#center-about{
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#hr{
-    display: none;
+    #class-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-side,
+    #right-side {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
 }
 
+/**media queries for screems max width 950px to 500px**/
 
+@media screen and (max-width :950px) {
 
+    #nav-list {
+        clear: left;
+        float: left;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        background-color: #f3f3f3;
+        width: 100%;
+    }
 
+    #classes {
+        width: 90%;
+        height: 1350px;
+        margin: 0 auto;
+    }
+
+    .left-side-class,
+    .right-side-class {
+        width: inherit;
+    }
+
+    .left-side-class h3,
+    .right-side-class h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .left-side-class p,
+    .right-side-class p {
+        text-align: center;
+        padding: 0 auto;
+    }
+
+    #sign-up-header {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #sign-up-form {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .member-form {
+        width: 90%;
+        margin: 10px 0 10px 0;
+    }
+}
+/* for larger to medium screen sizes from 500px wide and down */
+@media screen and (max-width : 500px ) {
+    
+    #classes {
+        width: 90%;
+        height: 1050px;
+        margin: 0 auto;
+    }
+    #center-about{
+        display: none;
+    }
 }
