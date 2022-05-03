@@ -171,6 +171,10 @@ nav a:hover {
 
 
 }
+.instructor-image{
+    height: 300px;
+    width: 80%;
+}
 
 /** section for classes**/
 #classes {
@@ -498,6 +502,9 @@ footer {
         width: 90%;
         margin: 10px 0 10px 0;
     }
+    .social-media{
+        padding-top: 8%;
+    }
 }
 
 /* for larger to medium screen sizes from 500px wide and down */
@@ -516,4 +523,17 @@ footer {
         font-size: 70%;
         
     }
+    .social-media{
+        padding-top: 10%;
+        padding-bottom: 70%;
+    }
+}
+   /* for larger to medium screen sizes from 400px wide and down */
+@media screen and (max-width : 400px){
+
+    .social-media{
+        padding-top: 20%;
+    }
+    
+    
 }
