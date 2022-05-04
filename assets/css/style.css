@@ -455,11 +455,11 @@ footer {
         text-align: center;
     }
 
-    .instructor-image {
+    #instructor-image {
         display: none;
     }
 
-    .teacher-image {
+    #teacher-image {
         display: none;
     }
 
