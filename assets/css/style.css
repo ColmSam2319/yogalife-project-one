@@ -187,15 +187,17 @@ nav a:hover {
 
 }
 
-.teacher-image {
+#teacher-image {
     height: 300px;
     width: 80%;
-
+    background: url(../images/Yoga-Teacher.jpg) no-repeat center center;
 
 }
-.instructor-image{
+#instructor-image{
     height: 300px;
     width: 80%;
+    background: url(../images/yoga-instructors.jpg) no-repeat center center;
+
 }
 
 /** section for classes**/
