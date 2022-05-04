@@ -390,7 +390,7 @@ hr {
 /**footer section taken from love running**/
 
 footer {
-    height: 200px;
+    height: 250px;
     background-color: rgba(135, 136, 135, 0.7);
 }
 
@@ -398,14 +398,18 @@ footer {
     color: black;
     text-align: center;
     font-size: 80%;
-    height: 50px;
+    height: 100px;
 }
 
 .contact-head {
     text-align: center;
     color: black;
 }
-
+#footer-social{
+    margin-top: 50px;
+    height: 100px;
+    width:100%;
+}
 .social-media {
     text-align: center;
 }
@@ -417,7 +421,7 @@ footer {
 .social-media i {
     font-size: 100%;
     margin: 2%;
-    padding-top: 5%;
+    
     color: #f3f3f3
 }
 
