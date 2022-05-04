@@ -42,7 +42,7 @@ This page will allow the user to register to sign up to a membership at Yogalife
 
 Once a user has completed the form and submitted the form they are brought to this page that has the same navigation bar that allows the user easy access back to the home page. the success page notifies the user that their form has been successfully submitted and a message tells them that they will be contacted by a membership advisor with regards membership.
 
-insert screen grab 6
+![success-page](/assets/images/readme-images/screengrab%209%20success%20page.png)
 
 ##  Footer (contact us)
 
@@ -77,11 +77,12 @@ What is listed is the main issues are some of the issues that arose.
 
 ### HTML
 No errors were returned when passing through the official W3C validator
-insert screen grab 8
+
+![html-valid](/assets/images/readme-images/screengrab%207%20html%20valid.png)
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
 
-insert screen grab 9
+![css-valid](/assets/images/readme-images/screengrab%208%20css%20valid.png)
 
 ## Development and Deployment
 
@@ -118,5 +119,22 @@ The two images used for the about us section was used from https://www.pexels.co
 The image for the yoga classses section was used from the following site https://lmimirror3pvr.azureedge.net/static/media/12214/3a262f41-3527-44ee-b223-6e719bfa30fa/bodybalance_960x480.jpg
 
 
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+## Credits 
+All of the below deserve my thanks for their help and tolerance as well as using the code institute course slides and the love running project.
+
+Martina Terlevic (mentor)
+ - For her endless help and support 
+
+Tom Devlin (friend)
+- for his help when I was stuck coding
+
+Louise Macken (partner)
+- For allowing me time to complete this project
+ 
+ ## Helpful External Sources 
+ https://www.google.com/
+
+ https://stackoverflow.com/
+
+
+Thank you very much.

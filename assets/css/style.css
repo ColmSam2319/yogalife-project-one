@@ -441,6 +441,11 @@ footer {
         width: 80%;
         text-align: center;
     }
+    #about-text-two{
+        width: 80%;
+        text-align: center;
+    }
+
     .instructor-image {
         display: none;
     }
@@ -503,7 +508,7 @@ footer {
     .left-side-class p,
     .right-side-class p {
         text-align: center;
-        padding: 0 auto;
+        padding: 0;
     }
 
     #sign-up-header {
