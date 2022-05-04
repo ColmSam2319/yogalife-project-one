@@ -272,7 +272,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('/assets/images/bodybalance_960x480.jpg') no-repeat center center;
+    background: url('../images/bodybalance_960x480.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
