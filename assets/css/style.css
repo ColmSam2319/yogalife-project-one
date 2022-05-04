@@ -148,7 +148,13 @@ nav a:hover {
     margin-bottom: 20px;
 
 }
+#about-text-left {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
 #about-text {
     display: inline-block;
     text-align: left;
@@ -157,8 +163,21 @@ nav a:hover {
     margin-right: 10px;
     margin-top: 20px;
 }
-
+#about-text-two {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
 #about-image {
+    text-align: right;
+    display: inline-block;
+    width: 30%;
+
+}
+#about-image-two {
     text-align: right;
     display: inline-block;
     width: 30%;
