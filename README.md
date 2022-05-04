@@ -9,7 +9,8 @@ insert screen grab 1
 - About Us
 - Yoga Classes
 - Membership Sign Up
-- Contact Us
+- Successful Sign Up
+- Footer (Contact Us)
 
 
 ## Header 
@@ -33,8 +34,17 @@ This section contains the information on the six types of yoga classes offered b
 insert screen grab 4
 
 ## Membership Sign Up 
+This page will allow the user to register to sign up to a membership at Yogalife. The user will be asked to submit their full name, date of birth, email address and address. The form requires all information to be completed before the form can be submitted there is also a reset button that will allow users to clear the form and restart if errors are made without having to go back or refresh the page. Once completed and submitted the user will be brought to a success page.
 
-##  Footer
+insert screen grab 5
+
+## Succesful Sign Up
+
+Once a user has completed the form and submitted the form they are brought to this page that has the same navigation bar that allows the user easy access back to the home page. the success page notifies the user that their form has been successfully submitted and a message tells them that they will be contacted by a membership advisor with regards membership.
+
+insert screen grab 6
+
+##  Footer (contact us)
 
 The footer section contains the following:
 
@@ -42,44 +52,71 @@ The footer section contains the following:
  
  - it also includes links to the relevant social media sites for Yogalife. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media
 
+ insert screen grab 7
 
 
+# Testing
+Test of functionality and appearance of the website has have been tested while adding media queries to the site. Test has been conducted using Google Chrome. Testing different devices and screen resolutions has been conducted using Google DevTools.
 
-Getting Started
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
-Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
-Help
-Any advise for common problems or issues.
+What is listed is the main issues are some of the issues that arose.
 
-command to run if program contains helper info
-Authors
-Contributors names and contact info
+* Header nav links remaining fixed and moving across the logo (fixed issue)
 
-ex. Dominique Pizzie
-ex. @DomPizzie
+* The text circle on the main image tex not centering in the circle
 
-Version History
-0.2
-Various bug fixes and optimizations
-See commit change or See release history
-0.1
-Initial Release
-License
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+* About seCtion h2 and p not aligning correctly
 
-Acknowledgments
-Inspiration, code snippets, etc.
+* About image not moving below text when under 1200px (fixed issue)
 
-awesome-readme
-PurpleBooth
-dbader
-zenorocha
-fvcproductions
+* Membership form not submitting when all details were compleated (fixed issue)
+
+* On the footer the social media icons disapear at certain points using dev tools
+
+
+## Validator Testing
+
+### HTML
+No errors were returned when passing through the official W3C validator
+insert screen grab 8
+### CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+insert screen grab 9
+
+## Development and Deployment
+
+The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here - https://colmsam2319.github.io/yogalife-project-one/
+
+## Content
+
+All text content on this site has been produced by the author of the project and is fictional. Individuals mentioned do not exist in real life and there is no Yogalife studio.
+This project utalises alot of the ”Love Running” project. Code has been borrowed from that project, used in the navagation links and also on the main image as well as the Footer. In the styles.css sheet it has been noted where borrowed code has been used. 
+
+The icons in the logo, and footer were taken from [Font Awesome](https://fontawesome.com/)
+
+The font used for this project was Raleway light 300 from https://fonts.google.com/
+
+## Media
+
+The image for the main landing page was used from the following site https://lmimirror3pvr.azureedge.net/static/media/7032/34aa5e6a-cdb9-4887-927e-302f50d186ce/ss16-bodybalance-06_020.jpg
+
+The two images used for the about us section was used from https://www.pexels.com/
+
+The image for the yoga classses section was used from the following site https://lmimirror3pvr.azureedge.net/static/media/12214/3a262f41-3527-44ee-b223-6e719bfa30fa/bodybalance_960x480.jpg
+
+
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome
