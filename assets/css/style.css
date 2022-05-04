@@ -94,10 +94,11 @@ nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.outer-image {
-    margin-top: 90px;
-    height: 720px;
+#outer-image {
+
+    height: 600px;
     width: 100%;
+    position: relative;
 }
 
 #main-image {
@@ -114,9 +115,9 @@ nav a:hover {
     letter-spacing: 4px;
 
     /*css for circle*/
-    width: 300px;
-    height: 300px;
-    border: 2px none;
+    width: 250px;
+    height: 225px;
+    border: 1px none;
     border-radius: 50%;
 
 
@@ -124,7 +125,7 @@ nav a:hover {
 
     background-color: rgba(135, 136, 135, 0.7);
     position: absolute;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 10px;
     top: 100px;
     right: 50px;
@@ -133,7 +134,9 @@ nav a:hover {
 
 
 }
-
+#about{
+    margin-top: 200px;
+}
 .about-head {
     text-align: center;
     margin: 20px 0;
