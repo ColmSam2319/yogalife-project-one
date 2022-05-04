@@ -190,13 +190,13 @@ nav a:hover {
 #teacher-image {
     height: 300px;
     width: 80%;
-    background: url(../images/Yoga-Teacher.jpg) no-repeat center center;
+    background: url(../images/Yoga-Teacher.jpg);
 
 }
 #instructor-image{
     height: 300px;
     width: 80%;
-    background: url(../images/yoga-instructors.jpg) no-repeat center center;
+    background: url(../images/yoga-instructors.jpg);
 
 }
 
