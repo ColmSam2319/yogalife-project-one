@@ -1,8 +1,8 @@
 # Yogalife
 Yogalife is a website that provides the user with information on yoga classes in the Athlone area. The site is targeted towards people that are looking to participate in yoga classes. The site offers different types of classes as well as information on the studio and instructors as well as a option to request membership.
 
-insert screen grab 1
-! [this is a screen shot] (/assets/images/readme-images/Screengrab-1-main.jpg)
+![landing-page-image](/assets/images/readme-images/Screengrab-1-main.jpg)
+
 
 # Features
 - Header (logo/nav links)
@@ -20,23 +20,23 @@ Navigation Bar
 This nagigation bar is fixed to the top of the page so even as the user scrolls down the navigation elements are always available to the user. the full responsive navigation bar includes links to the Home page, About us, Classes Sign Up and contact us page
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-insert screen grab 2
+![nav-bar-image](/assets/images/readme-images/screegrab-2-navbar.jpg)
 
 ## About Us
 
 this section contains information as well as images from yoga life studios. The user will be able to access informatin relating to the development and history of yogalife as well as information on the instructors that will deliever the yoga classes to participants.
 
-insert screen grab 3
+![about-us-image](/assets/images/readme-images/screengrab%203%20about%20us.png)
 
 ## Yoga Classes
 This section contains the information on the six types of yoga classes offered by this will allow users of the site to see what class best suits their needs.
 
-insert screen grab 4
+![yoga-classes-image](/assets/images/readme-images/screengrab%204%20yoga%20classes.png)
 
 ## Membership Sign Up 
 This page will allow the user to register to sign up to a membership at Yogalife. The user will be asked to submit their full name, date of birth, email address and address. The form requires all information to be completed before the form can be submitted there is also a reset button that will allow users to clear the form and restart if errors are made without having to go back or refresh the page. Once completed and submitted the user will be brought to a success page.
 
-insert screen grab 5
+![membership-form-image](/assets/images/readme-images/screengrab%205%20membership%20form.png)
 
 ## Succesful Sign Up
 
@@ -52,7 +52,7 @@ The footer section contains the following:
  
  - it also includes links to the relevant social media sites for Yogalife. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media
 
- insert screen grab 7
+ ![footer-image](/assets/images/readme-images/screengrab%206%20footer.png)
 
 
 # Testing
